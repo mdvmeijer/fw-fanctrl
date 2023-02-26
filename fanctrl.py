@@ -143,7 +143,7 @@ class FanController:
                 stdout=subprocess.PIPE,
                 shell=True,
                 text=True,
-                executable="/bin/bash",
+                executable="bash",
             ).stdout
         )
 
